@@ -20,6 +20,7 @@ jobs:
 
     - name: Install and Build
       run: |
+        cd grocery-platform
         npm install
         npm run build
 
